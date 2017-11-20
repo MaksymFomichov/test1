@@ -1,0 +1,152 @@
+<resources>
+    <string name="app_name">Буровой журнал</string>
+    <string name="action_settings">Settings</string>
+    <!--меню-->
+    <string name="action_help">Справка</string>
+    <string name="action_about">О программе</string>
+    <string name="action_send_mail">Написать разработчику</string>
+    <string name="action_payBeer">Купить полную версию</string>
+    <string name="action_star">Оценить приложение</string>
+    <!--меню popup-->
+    <string name="menuEdit">Редактировать</string>
+    <string name="menuCopy">Копировать</string>
+    <string name="menuSave">Сохранить в файл</string>
+    <string name="menuSavePDF">Сохранить в PDF</string>
+    <string name="menuSaveAndDelivered">Сохранить в файл и отправить</string>
+    <string name="menuDelete">Удалить</string>
+    <!--диалог о приложении-->
+    <string name="title_about_dialog">О приложении</string>
+    <string name="text_about_dialog">\n<b>Буровой журнал</b>\n\nВерсия 1.0 ©2017\nm.fomichov@gmail.com</string>
+    <!--диалог обьект-->
+    <string name="title_new_obj_dialog">Создание объекта</string>
+    <string name="title_edit_obj_dialog">Редактирование объекта</string>
+    <string name="title_load_obj_dialog">Загрузка объекта</string>
+    <string name="name_text_obj">Наименование</string>
+    <!--диалог выработка-->
+    <string name="title_new_exc_dialog">Создание выработки</string>
+    <string name="title_edit_exc_dialog">Редактирование выработки</string>
+    <string name="title_copy_exc_dialog">Копирование выработки</string>
+    <string name="title_load_exc_dialog">Загрузка выработки</string>
+    <string name="number_text_exc">Номер</string>
+    <string name="type_text_exc">Тип выработки</string>
+    <string name="etWho">Кто</string>
+    <string name="etHow">Как</string>
+    <string name="etThan">Чем</string>
+    <string name="etShowWater">Появ. уровень, м</string>
+    <string name="etStayWater">Устан. уровень, м</string>
+    <!--диалог проба-->
+    <string name="title_edit_probe_dialog">Редактирование пробы</string>
+    <string name="etDepthProbe">Глубина отбора, м</string>
+    <string name="etDescriptionProbe">Описание</string>
+    <string name="title_new_probe_dialog">Новая проба</string>
+    <string name="type_text_probe">Тип пробы</string>
+    <!--диалог слой-->
+    <string name="title_edit_layer_dialog">Редактирование слоя</string>
+    <string name="etDescriptionLayer">Описание</string>
+    <string name="title_new_layer_dialog">Новый слой</string>
+    <string name="etStartLayer">Начало слоя, м</string>
+    <string name="etEndLayer">Конец слоя, м</string>
+    <!--общее для диалогов-->
+    <string name="description">Описание</string>
+    <string name="ok">Ок</string>
+    <string name="cancel">Отмена</string>
+    <string name="dateStart">Начало</string>
+    <string name="dateEnd">Конец</string>
+    <string name="tvLatitude">Широта</string>
+    <string name="tvLongitude">Долгота</string>
+    <string name="tvLatitudeExc">Ш</string>
+    <string name="tvLongitudeExc">Д</string>
+    <string name="nameObjTest">Ошибка сохранения!\nВозможные причины:\n - наименование не уникально;\n - поле ввода наименования пусто;\n - в наименовании есть некорректные символы</string>
+    <string name="nameExcTest">Ошибка сохранения!\nВозможные причины:\n - номер не уникален;\n - поле ввода номера пусто;\n - дата начала больше даты окончания;\n - в номере есть некорректные символы</string>
+    <string name="nameLayerTest">Ошибка сохранения!\nВозможные причины:\n - поле ввода глубины слоя пусто;\n -начальная глубина больше или равна конечной глубине.</string>
+    <string name="nameProbeTest">Ошибка сохранения!\nВозможные причины:\n - поле ввода глубины пусто.</string>
+    <string name="title_download_base_dialog">Загрузка базы из облака</string>
+    <string name="text_download_base_dialog">В текущей базе данных есть объекты, при загрузке базы они будут удалены.</string>
+    <!--диалог удаления-->
+    <string name="title_delete_dialog">Удаление</string>
+    <string name="message_delete_obj">Вы уверены, что хотите удалить объект</string>
+    <string name="message_delete_exc">Вы уверены, что хотите удалить выработку</string>
+    <string name="message_delete_probe">Вы уверены, что хотите удалить пробу отобранную с глубины</string>
+    <string name="message_delete_layer">Вы уверены, что хотите удалить слой</string>
+    <!--разное-->
+    <string name="errorUploadDataBase">Не удалось сохранить базу данных в Google Drive</string>
+    <string name="goodUploadDataBase">База данных успешно сохранена в Google Drive</string>
+    <string name="delete_obj">объекта</string>
+    <string name="delete_obj_toast">Объект</string>
+    <string name="delete_exc_toast">Выработка</string>
+    <string name="delete_probe_toast">Проба</string>
+    <string name="delete_layer_toast">Слой</string>
+    <string name="delete_exc">выработки</string>
+    <string name="delete_probe">пробы</string>
+    <string name="delete_layer">слоя</string>
+    <string name="delete_word_he">удален из базы данных</string>
+    <string name="delete_word_she">удалена из базы данных</string>
+    <string name="delete_1">из базы данных?</string>
+    <string name="tvStartHelpMessageObj">Для добавления объекта в базу данных нажмите + в правом нижнем углу</string>
+    <string name="tvStartHelpMessageExc">Для добавления выработки в базу данных нажмите + в правом нижнем углу</string>
+    <string name="tvStartHelpMessageLayer">Для добавления слоя в базу данных нажмите + в правом нижнем углу</string>
+    <string name="tvStartHelpMessageProbe">Для добавления пробы в базу данных нажмите + в правом нижнем углу</string>
+    <string name="msgProgressDialog">Загрузка данных...</string>
+    <!--название заголовков активностей-->
+    <string name="title_object_fragment">Объекты</string>
+    <string name="title_exc_frag">Выработки</string>
+    <string name="title_layer_frag">Слои</string>
+    <!--название заголовков вкладок-->
+    <string name="title_tab_list_exc">Список</string>
+    <string name="title_tab_map_exc">Карта</string>
+    <string name="title_tab_stat_exc">Статистика</string>
+    <string name="title_tab_layer">Описание</string>
+    <string name="title_tab_probe">Пробы</string>
+    <!--типы выработок-->
+    <string name="exc_well">СКВ</string>
+    <string name="exc_stat_zond">ТСЗ</string>
+    <string name="exc_din_zond">ТДЗ</string>
+    <string name="exc_pit_dudka">ДУДКА</string>
+    <string name="exc_pit">ШУРФ</string>
+    <string name="tvHyphen">-</string>
+    <string name="etAbsoluteElevation">Отметка, м</string>
+    <!--типы проб-->
+    <string name="probe_full">монолит</string>
+    <string name="probe_destroyed">нарушенная</string>
+    <string name="probe_water">вода</string>
+    <!--сообщение для голосового ввода-->
+    <string name="voice_message_layer">Произнесите описание слоя</string>
+    <!--для колонки выработки в pdf-->
+    <string name="text_elevation">Отметка устья</string>
+    <string name="text_benchmark">Отметка забоя</string>
+    <string name="text_depth_exc">Общая глубина</string>
+    <string name="column_depth">Глубина слоя, м</string>
+    <string name="column_number">Номер слоя</string>
+    <string name="column_power">Мощность слоя, м</string>
+    <string name="column_benchmark_layer">Отметка подошвы слоя, м</string>
+    <string name="column_water">Отметки уровней подземных вод, м и даты замера</string>
+    <string name="column_description">Описание пород</string>
+    <string name="column_probe">Глубина отбора образцов, м</string>
+    <string name="dontConnectGoogleApiClient">Не удалось подключиться к Google Drive</string>
+    <string name="msgProgressDialogUpload">Сохранение базы данных в Google Drive...</string>
+    <string name="goodLoadDataBaseFromDrive">База данных обновлена</string>
+    <string name="errorCreateFolder">Ошибка при попытке создать папку</string>
+    <string name="problemGetMetadata">Проблема при попытке получить доступ к Google Drive</string>
+    <string name="menu_map_type_hybrid">Гибридная</string>
+    <string name="menu_map_type_satellite">Спутниковая</string>
+    <string name="menu_map_type_normal">Стандартная</string>
+    <string name="menu_map_type_terrain">Карта местности</string>
+
+
+    <!--массив типов проб-->
+    <string-array name="probe_array">
+        <item>нарушенная</item>
+        <item>монолит</item>
+        <item>вода</item>
+    </string-array>
+
+    <!--массив типов выработок-->
+    <string-array name="exc_array">
+        <item>СКВ</item>
+        <item>ТСЗ</item>
+        <item>ТДЗ</item>
+        <item>ДУДКА</item>
+        <item>ШУРФ</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.gmail.fomichov.m.drillingmagazine.MainActivity">
+    <item
+        android:id="@+id/menuDownload"
+        android:title=""
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menuUploadFileToDrive"
+        android:title=""
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="100"
+        android:title="@string/action_help"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_send_mail"
+        android:orderInCategory="100"
+        android:title="@string/action_send_mail"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_star"
+        android:orderInCategory="100"
+        android:title="@string/action_star"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_payBeer"
+        android:orderInCategory="100"
+        android:title="@string/action_payBeer"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:title="@string/action_about"
+        app:showAsAction="never" />
+</menu>

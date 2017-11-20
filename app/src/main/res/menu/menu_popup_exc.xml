@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/popupEdit"
+        android:title="@string/menuEdit" />
+    <item
+        android:id="@+id/popupCopy"
+        android:title="@string/menuCopy" />
+    <item
+        android:id="@+id/popupSavePDF"
+        android:title="@string/menuSavePDF" />
+    <item
+        android:id="@+id/popupSave"
+        android:title="@string/menuSave" />
+    <item
+        android:id="@+id/popupDelete"
+        android:title="@string/menuDelete" />
+
+</menu>
